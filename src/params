@@ -1,0 +1,25 @@
+runtimelimit = 1200
+sweeps = 250000
+thermalization = 50000
+outputfile=test_dop
+lattice = chain_lattice
+pbc = 0
+Lx = 8
+Ly = 1
+Lz = 1
+model = 3color
+beta=8
+nmax = 2
+E_off = 1.0
+canonical = -1
+SEED = 31
+Ntest = 10000000    
+Nsave = 100000000
+Nmeasure = 1
+C_worm = 2.0
+p_insertworm = 1.0
+p_moveworm   = 0.3
+p_insertkink = 0.3
+p_deletekink = 0.2
+p_glueworm   = 0.2
+
