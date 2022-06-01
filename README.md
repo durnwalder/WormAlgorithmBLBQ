@@ -1,7 +1,11 @@
 
-# Continuous-time quantum Monte Carlo simulation of the bilinear-biquadratic Spin-1 chain
-![Alt text](visualisations/torus_logo2.png?raw=true "Title")
 
+
+# Continuous-time quantum Monte Carlo simulation of the bilinear-biquadratic Spin-1 chain
+
+<p align="center">
+  <img src="visualisations/torus_logo2.png" width="150" />
+</p>
 
 
 | [**Prerequisites**](#prerequisites)
@@ -15,10 +19,11 @@
 
 
 The bilinear-biquadratic spin-1 chain is a striking example of the rich physics encountered in low-dimensional quantum spin systems. The various phases of the model were extensively studied with different analytical and numerical techniques. Most of the early numerical work on this phenomenon was done using exact diagonalization and, more recently, DMRG.  Our numerical study of the model relies on Quantum Monte Carlo, more specifically, the worm Algorithm in the path Integral representation. The worm algorithm was invented in the 1990s by Prokovief et al \cite{prokofev_exact_1998}. It is one of the most popular methods to study bosonic lattice models and spin systems. 
+
 $$H=\sum_{i=1}^{N-1} \cos (\theta)  \vec{S}_{i} \otimes \vec{S}_{i+1}+\sin (\theta) \left(\vec{S}_{i} \otimes \vec{S}_{i+1}\right)^{2}+\sum_{i=1}^{N} D\left(S_{i}^{z}\right)^{2}$$
 
     
-![Alt text](visualisations/worm_aklt.png?raw=true "Title")
+
 Requirements
 ------------
 
@@ -36,7 +41,9 @@ Beyond these, our codes require
 
   * a C++11-capable compiler. We have only tested our code when ALPSCore is installed with modern compilers that have C++11 features turned on by default.
 
-
+<p>
+  <img src="visualisations/worm_aklt.gif" width="400" />
+</p>
 
 
 
