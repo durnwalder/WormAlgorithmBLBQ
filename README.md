@@ -83,4 +83,6 @@ Output files
 <p>
   <img src="visualisations/flow.png" width="500"/>
 </p>
-
+<p>
+  <img src="visualisations/string.png" width="500"/>
+</p>
