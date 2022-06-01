@@ -1,12 +1,24 @@
 
 
 
-# Continuous-time quantum Monte Carlo simulation of the bilinear-biquadratic Spin-1 chain
+# WormAlgorithmBLBQ: Continuous-time quantum Monte Carlo simulation of the bilinear-biquadratic Spin-1 chain
 
 <p align="center">
   <img src="visualisations/torus_logo2.png" width="150" />
 </p>
 
+- [WormAlgorithmBLBQ: Continuous-time quantum Monte Carlo simulation of the bilinear-biquadratic Spin-1 chain](#wormalgorithmblbq-continuous-time-quantum-monte-carlo-simulation-of-the-bilinear-biquadratic-spin-1-chain)
+- [Getting started](#getting-started)
+  - [Building and installing ALPSCore](#building-and-installing-alpscore)
+  - [Building and running WormAlgorithmBLBQ](#building-and-running-wormalgorithmblbq)
+  - [Parameter files](#parameter-files)
+  - [Output files](#output-files)
+- [What is WormAlgorithmBLBQ?](#what-is-wormalgorithmblbq)
+- [Negative-sign problem an model selectiom](#negative-sign-problem-an-model-selectiom)
+  - [Requirements](#requirements)
+- [Haldane phase and string order parameter](#haldane-phase-and-string-order-parameter)
+  - [Model Selection](#model-selection)
+  - [Order Parameters](#order-parameters)
 
 | [**Prerequisites**](#prerequisites)
 | [**Install guide**](#installation)
@@ -67,18 +79,25 @@ On HPC clusters, you may need to load the required modules first, e.g.  `module 
 `mcmd mcmd.inp`<br /><br />  
 
 
+## Parameter files
+
+
+## Output files
+
+# What is WormAlgorithmBLBQ?
+
 
 
 The bilinear-biquadratic spin-1 chain is a striking example of the rich physics encountered in low-dimensional quantum spin systems. The various phases of the model were extensively studied with different analytical and numerical techniques. Most of the early numerical work on this model was done using exact diagonalization and, more recently, DMRG.  Our numerical study of the model relies on Quantum Monte Carlo, more specifically, the worm Algorithm in the path Integral representation. The worm algorithm was invented in the 1990s by Prokovief et al \cite{prokofev_exact_1998}. It is one of the most popular methods to study bosonic lattice models and spin systems. 
 
 $$H=\sum_{i=1}^{N-1} \cos (\theta)  \vec{S}_{i} \otimes \vec{S}_{i+1}+\sin (\theta) \left(\vec{S}_{i} \otimes \vec{S}_{i+1}\right)^{2}+\sum_{i=1}^{N} D\left(S_{i}^{z}\right)^{2}$$
 
-    
+ # Negative-sign problem an model selectiom   
 
 Requirements
 ------------
 
-
+# Haldane phase and string order parameter
 <p>
   <img src="visualisations/worm_aklt.gif" width="400" />
 </p>
@@ -86,10 +105,7 @@ Requirements
 
 
 -------------------------
-## Parameter files
 
-
-## Output files
 Output files
 
 
