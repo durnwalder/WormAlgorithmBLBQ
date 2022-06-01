@@ -80,5 +80,7 @@ Output files
 
 ## Model Selection
 ## Order Parameters
-
+<p>
+  <img src="visualisations/flow.png" width="500"/>
+</p>
 
