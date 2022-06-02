@@ -2,10 +2,15 @@
 
 
 # WormAlgorithmBLBQ: Continuous-time quantum Monte Carlo simulation of the bilinear-biquadratic Spin-1 chain
+| [Getting started](#getting-started)
+| [The Worm Algorithm](#the-worm-algorithm)
+| [Order Parameters](#order-parameters)
 
-<p align="center">
-  <img src="visualisations/torus_logo2.png" width="150" />
+<p align="left">
+  <img src="visualisations/insert.gif" width="400" />
 </p>
+
+
 
 - [WormAlgorithmBLBQ: Continuous-time quantum Monte Carlo simulation of the bilinear-biquadratic Spin-1 chain](#wormalgorithmblbq-continuous-time-quantum-monte-carlo-simulation-of-the-bilinear-biquadratic-spin-1-chain)
 - [Getting started](#getting-started)
@@ -13,21 +18,17 @@
   - [Building and running WormAlgorithmBLBQ](#building-and-running-wormalgorithmblbq)
   - [Parameter files](#parameter-files)
   - [Output files](#output-files)
-- [What is WormAlgorithmBLBQ?](#what-is-wormalgorithmblbq)
-- [Negative-sign problem an model selectiom](#negative-sign-problem-an-model-selectiom)
+- [The Worm Algorithm](#the-worm-algorithm)
+  - [Negative-sign problem and model selection](#negative-sign-problem-and-model-selection)
   - [Requirements](#requirements)
-- [Haldane phase and string order parameter](#haldane-phase-and-string-order-parameter)
-  - [Model Selection](#model-selection)
-  - [Order Parameters](#order-parameters)
+  - [Worm type updates](#worm-type-updates)
+- [Order Parameters](#order-parameters)
+  - [The Haldane phase - String order parameter](#the-haldane-phase---string-order-parameter)
+  - [Spin-Spin correlation function](#spin-spin-correlation-function)
+  - [Dimer order parameter](#dimer-order-parameter)
+  - [Off-diagonal long range order](#off-diagonal-long-range-order)
 
-| [**Prerequisites**](#prerequisites)
-| [**Install guide**](#installation)
-| [**Running the simulation**](#running-the-simulation)
-| [**Parameter files**](#parameter-files)
-| [**Model selection**](#transformations)
-| [**Order Parameters**](#order-parameter)
-| [**Output files**](#output-files)
-| [**Quick start**](#quick-start)
+
 
 
 
@@ -80,11 +81,13 @@ On HPC clusters, you may need to load the required modules first, e.g.  `module 
 
 
 ## Parameter files
-
+<p align="center">
+  <img src="visualisations/torus_logo2.png" width="150" />
+</p>
 
 ## Output files
 
-# What is WormAlgorithmBLBQ?
+# The Worm Algorithm
 
 
 
@@ -92,25 +95,23 @@ The bilinear-biquadratic spin-1 chain is a striking example of the rich physics 
 
 $$H=\sum_{i=1}^{N-1} \cos (\theta)  \vec{S}_{i} \otimes \vec{S}_{i+1}+\sin (\theta) \left(\vec{S}_{i} \otimes \vec{S}_{i+1}\right)^{2}+\sum_{i=1}^{N} D\left(S_{i}^{z}\right)^{2}$$
 
- # Negative-sign problem an model selectiom   
+ ## Negative-sign problem and model selection   
 
 Requirements
 ------------
+ ## Worm type updates   
 
-# Haldane phase and string order parameter
+# Order Parameters
+## The Haldane phase - String order parameter
 <p>
   <img src="visualisations/worm_aklt.gif" width="400" />
 </p>
 
+## Spin-Spin correlation function
+## Dimer order parameter
+## Off-diagonal long range order
 
 
--------------------------
-
-Output files
-
-
-## Model Selection
-## Order Parameters
 <p>
   <img src="visualisations/flow.png" width="500"/>
 </p>
