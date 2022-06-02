@@ -3,8 +3,8 @@
 
 # WormAlgorithmBLBQ: Continuous-time quantum Monte Carlo simulation of the bilinear-biquadratic Spin-1 chain
 
-<p align="center">
-  <img src="visualisations/torus_logo2.png" width="150" />
+<p align="left">
+  <img src="visualisations/insert2.gif" width="400" />
 </p>
 
 - [WormAlgorithmBLBQ: Continuous-time quantum Monte Carlo simulation of the bilinear-biquadratic Spin-1 chain](#wormalgorithmblbq-continuous-time-quantum-monte-carlo-simulation-of-the-bilinear-biquadratic-spin-1-chain)
