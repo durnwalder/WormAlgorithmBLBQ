@@ -11,6 +11,7 @@ This repository contains a Quantum Monte Carlo algorithm along with some utiliti
 
 <p align="left">
   <img src="visualisations/insert2.gif" width="400" />
+  <figcaption>The algorithm samples worldline configurations with three species of bosonic particles (red-green-blue) and two types of interactions.  This bosonic particle model is equivalent to a Spin-1 model. The two black squares are what we call worm head and tail, hence the name worm algorithm. The head performs a random walk in space time. When head and tail meet, the worm gets removed and reinserted at a random point. For a diagrammatic representation of the algorithm see and for a detailed discussion see thesis.pdf .    </figcaption>
 </p>
 
 
