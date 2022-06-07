@@ -10,7 +10,7 @@
 
 <br />
 
-[Visualization](#visualization) |
+[Visualisation](#visualization) |
 [Getting started](#getting-started)|
 [Download thesis](https://github.com/durnwalder/WormAlgorithmBLBQ/raw/main/thesis.pdf)
 <br />
