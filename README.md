@@ -17,14 +17,14 @@
 </div>
 <hr />
 
-This repository contains a Quantum Monte Carlo algorithm along with some utilities and a [thesis](https://github.com/durnwalder/WormAlgorithmBLBQ/raw/main/thesis.pdf) describing the algorithm in detail. The algorithm simulates a generalization of the AKLT model, the bilinear-biquadratic spin-1 model. The model is a striking example of the rich physics encountered in low-dimensional quantum spin systems. It exhibits symmetry protected topological order in the Haldane phase, which is fully-accesible to our algorithm. For an introduction these phenomena we refer to the [lecture by Haldane](https://www.nobelprize.org/uploads/2018/06/haldane-lecture.pdf). Our numerical study of the model relies on the worm algorithm in the path integral representation, which is formulated in continous time. The worm algorithm has been invented in the 1990s by [Prokovief et al](https://arxiv.org/abs/cond-mat/9703200). It has since become one of the most popular methods for studying bosonic lattice models and spin systems. 
+This repository contains a Quantum Monte Carlo algorithm along with some utilities and a [thesis](https://github.com/durnwalder/WormAlgorithmBLBQ/raw/main/thesis.pdf) describing the algorithm. We simulate a generalisation of the AKLT model, the bilinear-biquadratic spin-1 model. The model is a striking example of the rich physics encountered in low-dimensional quantum spin systems. It exhibits symmetry-protected topological order in the Haldane phase, which is fully accesible to our algorithm. For an introduction these phenomena we refer to the [lecture by Haldane](https://www.nobelprize.org/uploads/2018/06/haldane-lecture.pdf). Our numerical study of the model relies on the worm algorithm in the path integral representation, which is formulated in continous time. The worm algorithm has been invented in the 1990s by [Prokovief et al](https://arxiv.org/abs/cond-mat/9703200). It has since become one of the most popular methods for studying bosonic lattice models and spin systems. 
 
 # Visualisation
 <p align="left">
   <img src="visualisations/insert2.gif" width="400" />
 </p>
 
-The algorithm samples worldline configurations with three species of bosonic particles (red, green and blue) and two types of interactions.  This bosonic particle model is equivalent to the AKLT model. The two black squares are what we call worm head and tail, hence the name worm algorithm. The head performs a random walk in space-time. When head and tail meet, the worm gets removed and reinserted at a random point. For a detailed discussion of the algorithms see chapter 2 in [thesis](https://github.com/durnwalder/WormAlgorithmBLBQ/raw/main/thesis.pdf).
+The algorithm samples worldline configurations with three species of bosonic particles (red, green and blue) and two types of interactions.  This bosonic particle model is equivalent to the AKLT model. The two black squares are what we call worm head and tail, hence the name worm algorithm. The head performs a random walk in space-time. When head and tail meet, the worm gets removed and reinserted at a random space-time point. For a detailed discussion of the algorithms see chapter 2 in [thesis](https://github.com/durnwalder/WormAlgorithmBLBQ/raw/main/thesis.pdf).
 
 # Getting started
 WormAlgorithmBLBQ is based on the [ALPSCore](https://github.com/ALPSCore/ALPSCore)
