@@ -12,7 +12,7 @@
 
 [Visualization](#visualization) |
 [Getting started](#getting-started)|
-[Download Thesis](https://github.com/durnwalder/WormAlgorithmBLBQ/raw/main/thesis.pdf)
+[Download thesis](https://github.com/durnwalder/WormAlgorithmBLBQ/raw/main/thesis.pdf)
 <br />
 </div>
 <hr />
@@ -24,7 +24,7 @@ This repository contains a Quantum Monte Carlo algorithm along with some utiliti
   <img src="visualisations/insert2.gif" width="400" />
 </p>
 
-The algorithm samples worldline configurations with three species of bosonic particles (red, green and blue) and two types of interactions.  This bosonic particle model is equivalent to the AKLT model. The two black squares are what we call worm head and tail, hence the name worm algorithm. The head performs a random walk in space-time. When head and tail meet, the worm gets removed and reinserted at a random point. For a detailed discussion of the algorithms see chapter 2 in [thesis.pdf](https://github.com/durnwalder/WormAlgorithmBLBQ/raw/main/thesis.pdf).
+The algorithm samples worldline configurations with three species of bosonic particles (red, green and blue) and two types of interactions.  This bosonic particle model is equivalent to the AKLT model. The two black squares are what we call worm head and tail, hence the name worm algorithm. The head performs a random walk in space-time. When head and tail meet, the worm gets removed and reinserted at a random point. For a detailed discussion of the algorithms see chapter 2 in [thesis](https://github.com/durnwalder/WormAlgorithmBLBQ/raw/main/thesis.pdf).
 
 # Getting started
 WormAlgorithmBLBQ is based on the [ALPSCore](https://github.com/ALPSCore/ALPSCore)
@@ -69,4 +69,4 @@ On HPC clusters, you may need to load the required modules first, e.g.  `module 
 1. Run: <br />
 `./qmc_worm ../parameter_files/aklt.ini`<br /><br />  
 
-The parameter file `aklt.ini` contains the parameters for the AKLT model, which was also used for the [Visualization](#visualization).
+The parameter file `aklt.ini` contains the parameters for the AKLT model, which was also used for the [Visualisation](#visualisation).
