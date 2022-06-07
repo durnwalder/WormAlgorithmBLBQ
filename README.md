@@ -19,7 +19,7 @@
 
 This repository contains a Quantum Monte Carlo algorithm along with some utilities and a [thesis](https://github.com/durnwalder/WormAlgorithmBLBQ/raw/main/thesis.pdf) describing the algorithm in detail. The algorithm simulates a generalization of the AKLT model, the bilinear-biquadratic spin-1 model. The model is a striking example of the rich physics encountered in low-dimensional quantum spin systems. It exhibits symmetry protected topological order in the Haldane phase, which is fully-accesible to our algorithm. For an introduction these phenomena we refer to the [lecture by Haldane](https://www.nobelprize.org/uploads/2018/06/haldane-lecture.pdf). Our numerical study of the model relies on the worm algorithm in the path integral representation, which is formulated in continous time. The worm algorithm has been invented in the 1990s by [Prokovief et al](https://arxiv.org/abs/cond-mat/9703200). It has since become one of the most popular methods for studying bosonic lattice models and spin systems. 
 
-# Visualization
+# Visualisation
 <p align="left">
   <img src="visualisations/insert2.gif" width="400" />
 </p>
